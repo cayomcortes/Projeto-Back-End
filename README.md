@@ -1,6 +1,6 @@
 # DoaCerto – API de Gestão de Estoque de Doações
 
-Projeto de Extensão Universitária (Back-End). API REST para controle de estoque de
+Projeto de Extensão Back-End para controle de estoque de
 doações em ONGs, com alertas de vencimento, estoque mínimo e histórico de movimentações.
 
 Versão atual: **1.1.0** (ver `CHANGELOG.md`). A documentação técnica completa está em
