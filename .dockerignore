@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.pyc
+doacoes.db
+.env
+.git
+.github
+tests
+docs

@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////data/doacoes.db
+      LOG_LEVEL: INFO
+    volumes:
+      - doacerto-dados:/data
+    restart: unless-stopped
+
+volumes:
+  doacerto-dados:
